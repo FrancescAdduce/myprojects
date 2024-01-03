@@ -1,0 +1,56 @@
+#login,#register {
+    #changePage {
+        padding: 0;
+        margin-left: 5px;
+        font-weight: bold;
+        transition: all 0.4s;
+    }
+    #changePage:hover{
+        color:rgba(166, 55, 221, 0.61);
+    }
+    #authG {
+        margin-top: -68px;
+        .bi-google {
+            border: 1px solid white;
+            padding: 10px 15px;
+           
+            border-radius: 20px;
+            background-color: rgba(69, 23, 92, 0.61);
+            border: 3px solid white;
+            transition: all 0.4s;
+        }
+        .bi-google:hover {
+            background-color: white;
+            border: 3px solid rgba(69, 23, 92, 0.61);
+            color: rgba(69, 23, 92, 0.61);
+        }
+    }
+
+    .input {
+        border: 3px solid rgba(69, 23, 92, 0.61) !important;
+        padding: 10px !important;
+        border-radius: 20px;
+        background-color: white !important;
+        width: 100%;
+    }
+    #confirm {
+        padding: 10px 80px;
+        margin: 0;
+        border-radius: 20px;
+        background-color: rgba(69, 23, 92, 0.61);
+        border: 1px solid rgba(69, 23, 92, 0.61);
+        font-weight: bold;
+        transition: all 0.4s;
+    }
+    #confirm:hover {
+        background-color: white;
+        border: 1px solid rgba(69, 23, 92, 0.61);
+        color: rgba(69, 23, 92, 0.61);
+    }
+    .card {
+        background-color: rgba(0, 0, 0, 0.575);
+
+        color: white;
+        padding: 50px 0;
+    }
+}
